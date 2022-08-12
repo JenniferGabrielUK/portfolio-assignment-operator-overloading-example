@@ -1,0 +1,18 @@
+#include <iostream>
+#include <vector>
+#include "Mystring.h"
+
+using namespace std;
+
+int main()
+{
+	MyString a {"Hello"};
+    MyString b;
+    b = a;
+    b = "This is a test.";
+    MyString empty; //no-arguements constructor
+    MyString jenny{"Jenny"}; //overloaded constructor
+    MyString name{jenny}; //copyconstructor
+    MyString names; //no-arguements constructor
+    return 0;
+}
